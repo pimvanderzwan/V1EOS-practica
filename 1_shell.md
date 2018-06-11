@@ -24,7 +24,7 @@ Hierna kun je het bestand uitvoeren:
 ## Zelf aan de slag
 Nu gaan we zelf aan de slag met het schrijven van shellscripts. Een aantal dingen om op te letten:
 - Maak één script per opdracht.
-- Voor het testen van de shellscripts is een mappenstructuur beschikbaar op [GitHub](https://github.com/peikos/EOS1_bestanden). Clone deze om je scripts uit te voeren, en reset deze om alles weer terug te zetten voor een volgende test. *Let op:* zet je scripts zelf niet in deze map, zodat je deze niet mee kan resetten. Het kan helpen je scripts in een `~/bin` map te zetten en deze aan je `PATH` toe te voegen.
+- Voor het testen van de shellscripts is een mappenstructuur beschikbaar op [GitHub](https://github.com/peikos/EOS1_bestanden). Clone deze om je scripts uit te voeren, en reset deze om alles weer terug te zetten voor een volgende test. **Let op:** zet je scripts zelf niet in deze map, zodat je deze niet mee kan resetten. Het kan helpen je scripts in een `~/bin` map te zetten en deze aan je `PATH` toe te voegen.
 - Gebruik Bash. Als je een alternatieve shell gebruikt, voer dan eerst `bash` uit voordat je je script als commando gebruikt.
 - Documenteer je script: net als in Python kun je `#` gebruiken voor commentaar.
 - Deze opdrachten gaan over de stof van 2 lessen. Mocht je ergens niet uitkomen, dan ben je mogelijk vooruit aan het lopen en heb je kennis nodig die volgende les wordt behandeld.
