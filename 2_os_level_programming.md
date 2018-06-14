@@ -1,4 +1,4 @@
-# EOS Opdracht 2 — OS Level Programming in C++
+# EOS Unit 2 — OS Level Programming in C++
 
 Deze opdracht is individueel. De opdracht is het maken van een paar simpele utilities die je als deel van een pipeline kan inzetten, en hierbij gebruik te maken van OS calls. Voor het compilen van de utilities gebruiken we GNU Make en (optioneel) CMake. Je moet zowel je code als de Makefiles aan je docent laten zien.
 
@@ -13,7 +13,7 @@ We gaan een simpele shell maken, die op een aantal commando's kan reageren. Hier
 
 De shell moet bij opstarten een configuratiebestand inlezen, waarin een enkele string staat. Deze string bevat het prompt (iedere invoerregel begint met het prompt om aan te geven dat de gebruiker invoer kan geven). Dit bestand wordt ingelezen met behulp van `read`. Daarnaast moet de shell tenminste de volgende commando's ondersteunen:
 - `new_file`: deze vraagt de gebruiker om twee strings: eerst een enkele regel, de bestandsnaam, en daarna een tekst, die afgesloten wordt met `<EOF>`. De gegeven tekst wordt in een nieuw bestand geschreven met de gekozen bestandsnaam. Tussen elke regel bevindt zich lege ruimte: na een regel van 5 karakters worden 5 karakters overgeslagen voordat de volgende regel toegevoegd wordt. Gebruik hiervoor de system calls `creat`, `lseek` en `write`.
-- `ls`: deze spawnt een nieuw proces (`ls -la`) en print het resultaat. Gebruik hiervoor de system calls `fork`, `exec` en `wait` `pipe`.
+- `ls`: deze spawnt een nieuw proces (`ls -la`) en print het resultaat. Gebruik hiervoor de system calls `fork`, `exec` en `wait`.
 - `find`: deze vraagt om een string, en spawnt vervolgens twee nieuwe processen, (`find .`) en (`grep string`). De processen worden met een pipe verbonden zodat `grep` de output van `find` filtert alvorens deze te printen. Gebruik hiervoor de system calls `fork`, `exec`, `wait` en `pipe`.
 
 ## Opdracht 2
