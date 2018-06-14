@@ -1,3 +1,3 @@
-# EOS Opdracht 3 — Gentoo
+# EOS Unit 3 — Gentoo
 
 Deze opdracht is individueel.
