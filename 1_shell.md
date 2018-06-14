@@ -2,7 +2,7 @@
 
 Deze opdracht is individueel. De opdracht is het maken van een aantal Shell scripts, die je aan je docent moet laten zien.
 
-We hebben inmiddels gezien dat Linux met een grote lading simpele programma'tjes komt, die met pipes te combineren zijn. De shell kan echter nog veel meer: in principe is het een full-fledged programmeertaal met condities (`if` en `switch`), loops en subroutines. Door een serie commando's en statements in een bestand te zetten (een shellscript) kan je simpele taken automatiseren. In deze opdracht leggen we de basis van het programmeren in shell.
+We hebben inmiddels gezien dat Linux met een grote lading simpele command-line programma's komt, die met pipes te combineren zijn. De shell kan echter nog veel meer: in principe is het een full-fledged programmeertaal met condities (`if` en `switch`), loops en subroutines. Door een serie commando's en statements in een bestand te zetten (een shellscript) kan je simpele taken automatiseren. In deze opdracht leggen we de basis van het programmeren in shell.
 
 ## Shellscripts
 Een shellscript is in principe niets anders dan een tekstbestand met opdrachten voor de shell, vergelijkbaar met een Python script: de code hoeft niet (zoals bij C++) gecompileerd te worden, maar wordt direct door een interpreter uitgevoerd. In het geval van shellscript is de interpreter de shell waar je ook direct commando's invoert (doorgaans Bash). Als eerste maken we en simpele Hello World: maak een nieuw tekstbestand, `hello` (shellscripts hebben doorgaans geen extensie, al wordt `.sh` soms gebruikt). Zet hierin de volgende inhoud:
