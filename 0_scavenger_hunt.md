@@ -5,7 +5,7 @@ Beantwoord de vragen hieronder ("Onderweg") tijdens het uitvoeren van de opdrach
 
 ## Benodigde bestanden
 Download de Linux `scavenger-hunt` van [deze GitHub](https://github.com/pushingice/scavenger-hunt) met behulp van `cd; git clone https://github.com/pushingice/scavenger-hunt.git
-cd scavenger-hunt`. Gebruik vervolgens het commando `cd scavenger-hunt` om in de zojuist gemaakte directory te komen. Van hieruit gebruik je Python om de clues te genereren. Om ervoor te zorgen dat je de juiste clues treft (en het nakijken mogelijk te maken) gebruik je 3511 als secret number: `python generate_clues.py 42`. Je kunt nu met de eerste aanwijzing beginnen, lees hiervoor de `README.md` op GitHub.
+cd scavenger-hunt`. Gebruik vervolgens het commando `cd scavenger-hunt` om in de zojuist gemaakte directory te komen. Van hieruit gebruik je Python om de clues te genereren. Om ervoor te zorgen dat je de juiste clues treft (en het nakijken mogelijk te maken) gebruik je 3511 als secret number: `python generate_clues.py 3511`. Je kunt nu met de eerste aanwijzing beginnen, lees hiervoor de `README.md` op GitHub.
 
 ## Onderweg
 Terwijl je hiermee bezig bent, beantwoord je de volgende vragen. Deze lever je in of laat je zien aan je docent.
