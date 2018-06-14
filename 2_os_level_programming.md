@@ -20,7 +20,7 @@ De shell moet bij opstarten een configuratiebestand inlezen, waarin een enkele s
 De System calls die we in de vorige opdracht hebben gezien worden allemaal door de Linux Kernel geleverd, net als [een flinke lijst](https://www.tutorialspoint.com/unix_system_calls/index.htm) andere calls. Door de Linux Kernel aan te passen, is het mogelijk om zelf system calls toe te voegen.
 
 - Download de source van je kernel.
-- Laad je bestaande kernel configuratie met `zcat /rpoc/config.gz > .config` (in de root map van je kernel source).
+- Laad je bestaande kernel configuratie met `zcat /proc/config.gz > .config` (in de root map van je kernel source).
 - Open `.config` en vervang de waarde van `CONFIG_LOCALVERSION` naar `-EOS`.
 - Voeg een system-call to aan de system call table: open het bestand `arch/x86/entry/syscalls/syscall_64.tbl` en voeg een regel toe met het eerste vrij getal (bij mij is dit 548, maar dit hangt van je versie af): `548	common	eos	sys_eos`.
 - Open `kernel/sys.c` en voeg een functie `eos` toe die een bericht print. Hiervoor gebruiken we de `SYSCALL_DEFINE0` macro (zoek in de kernel source naar een voorbeeld) om een sytem call zonder argumenten te maken. De functie hoeft niet meer te doen dan een simpele `printk(KERN_INFO "Never gonna give you up")`. Hoewel de kernel in C is geschreven zou dit met je C++ kennis te doen moeten zijn (zolang je geen objecten of geavanceerde features gebruikt).
