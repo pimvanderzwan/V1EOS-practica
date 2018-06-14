@@ -1,4 +1,4 @@
-# EOS Opdracht 0 — Linux Scavenger Hunt
+# EOS Unit 0 — Linux Scavenger Hunt
 
 Deze opdracht is individueel. Om de opdracht uit te voeren heb je een Raspberry Pi of Virtual Machine (bijvoorbeeld VirtualBox) met Linux nodig. Voor een volgende opdracht wordt ook met VirtualBox gewerkt. Het beste kun je voor de scavenger hunt een versie van Debian of Ubuntu Linux gebruiken, dit om in een aantal van de clues iets te kunnen installeren. Als je al bekend bent met Linux en weet hoe dit in je eigen variant werkt, dan mag dat natuurlijk ook.
 Beantwoord de vragen hieronder ("Onderweg") tijdens het uitvoeren van de opdracht, dit vormt het bewijs dat je de opdracht gedaan hebt.
