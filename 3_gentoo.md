@@ -1,4 +1,4 @@
-# EOS Opdracht 3 — Gentoo
+# EOS Unit 3 — Gentoo
 
 Deze opdracht is individueel. De opdracht is het installeren van een Gentoo Linux systeem. Tijdens de installatie houdt je een log bij wat je hebt gedaan, en waar je moeite mee had. Ook beantwoord je tijdens de installatie een aantal vragen. Het resultaat neem je door met de docent. Ook demonstreer je de werkende computer of VM (dit mag via SSH als je een vaste computer hebt gebruikt). **Let op: lees het gehele document goed door, en beantwoord alle vragen!**
 

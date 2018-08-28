@@ -1,4 +1,4 @@
-# EOS Opdracht 1 — Shell Scripting
+# EOS Unit 1 — Shell Scripting
 
 Deze opdracht is individueel. De opdracht is het maken van een aantal Shell scripts, die je aan je docent moet laten zien.
 
