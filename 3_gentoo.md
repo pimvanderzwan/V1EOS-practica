@@ -37,7 +37,7 @@ Gebruik `blkid` om de UUIDs van je partities te vinden, en [gebruik deze](https:
 Bij het configureren van je netwerk gebruik je het commando `rc-update` om het netwerk tijdens het booten beschikbaar te maken. Zoek op wat `rc-update` doet en wat init-scripts zijn.
 
 ## Paketten
-Vervolgens is het tijd om wat tools te installeren: een system logger, een cron daemon en een file indexer. Hoewel deze optioneel zijn, is het wel aan te bevelen deze te installeren. Je kan het proces iets versnellen door de verschillende paketten (`app-admin/sysklogd`, `sys-process/cronie`, ...) achter één ``emerge --ask` te zetten. Zoek ondertussen op wat deze drie tools doen en beschrijf dat in je log. De genoemde paketten zijn de default-keuzes voor Gentoo, maar zeker niet de enige opties. Zoek voor elke tool een alternatief en kijk wat de verschillen zijn.
+Vervolgens is het tijd om wat tools te installeren: een system logger, een cron daemon en een file indexer. Hoewel deze optioneel zijn, is het wel aan te bevelen deze te installeren. Je kan het proces iets versnellen door de verschillende paketten (`app-admin/sysklogd`, `sys-process/cronie`, ...) achter één `emerge --ask` te zetten. Zoek ondertussen op wat deze drie tools doen en beschrijf dat in je log. De genoemde paketten zijn de default-keuzes voor Gentoo, maar zeker niet de enige opties. Zoek voor elke tool een alternatief en kijk wat de verschillen zijn.
 
 ## Booten (revisited)
 De laatste grote stap van de guide is het bootbaar maken van je systeem. Bekijk de verschillende opties (doe zelf een beetje onderzoek) en kies je bootloader. Welke bootloader heb je gekozen, en waarom juist deze?
