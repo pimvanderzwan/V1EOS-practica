@@ -44,3 +44,6 @@ De laatste grote stap van de guide is het bootbaar maken van je systeem. Bekijk 
 
 ## Afronden
 Reboot je systeem en maak een user voor jezelf. Je kunt nu extra software installeren, zoals bijvoorbeeld een grafische schil. Installeer een window manager of desktop environment naar keuze en enkele applicaties. Bekende desktop environments zijn Gnome, KDE/Plasma, LXDE (bekend van de Raspberry Pi) en Xfce. Je kunt ook een eenvoudigere window manager kiezen, en deze combineren met andere software om een werkomgeving op te zetten. Google naar wat je interessant lijkt en go wild! Beschrijf de desktop environment of window manager + tools die je hebt gekozen, en vergelijk je keuze met twee alternatieven: een window manager en een desktop environment.
+
+## Bonus
+Je hebt nu (als alles goed is gegaan) een werkende Linux machine om mee te experimenteren. Deel van de kracht van Linux is keuze: naast de opties die je hebt voor een desktop environment kun je voor bijna elk onderdeel uit verschillende programma's kiezen. Maak je machine eigen door verschillende opties uit te proberen.
