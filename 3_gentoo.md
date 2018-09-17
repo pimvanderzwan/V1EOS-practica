@@ -10,7 +10,7 @@ Een ding om rekening mee te houden bij Gentoo is dat de distributie source-based
 
 Begin met het downloaden van de [Gentoo ISO](https://www.gentoo.org/downloads). Kies voor de minimal installation CD en sla dit bestand op je laptop op. Voor de installatie mag je een fysieke of virtuele machine (VM) gebruiken; we raden af om hiervoor je Raspberry Pi te gebruiken. Als je een laptop of computer hebt **die je niet gebruikt** (dit mag best een oud systeem zijn, zolang je maar niets kapot kunt maken dat je nodig hebt) dan kun je deze gebruiken, anders raden we aan [VirtualBox](https://www.virtualbox.org) te downloaden. Dit heeft als extra voordeel dat je snapshots kan maken (een backup van je systeem op een bepaald moment) als je geavanceerde opties wilt proberen, zodat je niet opnieuw hoeft te beginnen als dit mislukt en je systeem onwerkbaar is geworden.
 
-Maak een nieuwe virtuele machine aan en selecteer de Gentoo ISO als "virtual optic disk". Als je een fysieke machine wilt installeren moet je de ISO naar een CD, DVD of USB stick branden (dat laatste kan met Etcher, dat je ook met CSN gebruikt hebt).
+Maak een nieuwe virtuele machine aan en selecteer bij de eerste keer starten de Gentoo ISO als "virtual optic disk". Als je een fysieke machine wilt installeren moet je de ISO naar een CD, DVD of USB stick branden (dat laatste kan met Etcher, dat je ook met CSN gebruikt hebt).
 
 Zodra je de minimal installation CD geboot hebt, kom je terecht in een Linux command line. Je bent ingelogd als root gebruiker en kunt in een map je nieuwe Linux-systeem opbouwen. Zodra alles op z'n plek staat kun je naar je nieuwe systeem switchen om de installatie voort te zetten. Als alles goed is gegaan kun je na de installatie direct in je nieuwe sytseem booten.
 
