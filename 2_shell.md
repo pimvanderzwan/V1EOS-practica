@@ -1,6 +1,6 @@
-# EOS Unit 1 — Shell Scripting
+# EOS Unit 2 — Shell Scripting
 
-Deze opdracht is individueel. De opdracht is het maken van een aantal Shell scripts, die je aan je docent moet laten zien.
+Deze opdracht is individueel. De opdracht is het maken van een aantal Shell scripts, die je in moet leveren via GitHub.
 
 We hebben inmiddels gezien dat Linux met een grote lading simpele command-line programma's komt, die met pipes te combineren zijn. De shell kan echter nog veel meer: in principe is het een full-fledged programmeertaal met condities (`if` en `switch`), loops en subroutines. Door een serie commando's en statements in een bestand te zetten (een shellscript) kan je simpele taken automatiseren. In deze opdracht leggen we de basis van het programmeren in shell.
 
@@ -23,6 +23,7 @@ Hierna kun je het bestand uitvoeren:
 
 ## Zelf aan de slag
 Nu gaan we zelf aan de slag met het schrijven van shellscripts. Een aantal dingen om op te letten:
+
 - Maak één script per opdracht.
 - Voor het testen van de shellscripts is een mappenstructuur beschikbaar op [GitHub](https://github.com/peikos/EOS1_bestanden). Clone deze om je scripts uit te voeren, en reset deze om alles weer terug te zetten voor een volgende test. **Let op:** zet je scripts zelf niet in deze map, zodat je deze niet mee kan resetten. Het kan helpen je scripts in een `~/bin` map te zetten en deze aan je `PATH` toe te voegen.
 - Gebruik Bash. Als je een alternatieve shell gebruikt, voer dan eerst `bash` uit voordat je je script als commando gebruikt.
@@ -30,6 +31,7 @@ Nu gaan we zelf aan de slag met het schrijven van shellscripts. Een aantal dinge
 - Deze opdrachten gaan over de stof van 2 lessen. Mocht je ergens niet uitkomen, dan ben je mogelijk vooruit aan het lopen en heb je kennis nodig die volgende les wordt behandeld.
 - Voorkom [Useless Use of Cat](http://porkmail.org/era/unix/award.html).
 - Voorkom hardcoded paden, geef de doelmap als argument mee aan je shellscripts.
+- **Lever je werk in door een link naar GitHub op te geven. Link hierbij naar een commit, niet naar de repository als geheel!**
 
 ## Opdracht 0
 Maak een shellscript `sorteerAfbeeldingen` dat een map "Afbeeldingen" aanmaakt, en alle JPEG en PNG bestanden hiernaar verplaatst. Het script wordt aangeroepen met `sorteerAfbeeldingen /pad/naar/EOS1_bestanden`. Doe dit zowel met een expliciete loop, als met behulp van `find -exec` of `find | xargs` (naar keuze).
@@ -48,6 +50,7 @@ Maak een shellscript `checkStatus` dat een gegeven commando uit probeert te voer
 
 ## Opdracht 5
 Maak een shellscript `maakLogin` dat:
+
 - Om je naam vraagt, en als deze niet wordt gegeven de huidige gebruikersnaam als default pakt (`whoami`);
 - een wachtwoord vraagt, en dit met een `while`-loop blijft herhalen tot tweemaal hetzelfde wachtwoord wordt ingevoerd met minstens 8 karakters, een hoofdletter, een kleine letter en een cijfer;
 - een tekstbestand schrijft met de gebruikersnaam en een MD5-hash (`md5sum`) van het gekozen wachtwoord.

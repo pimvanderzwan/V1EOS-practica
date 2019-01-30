@@ -9,6 +9,7 @@ cd scavenger-hunt`. Gebruik vervolgens het commando `cd scavenger-hunt` om in de
 
 ## Onderweg
 Terwijl je hiermee bezig bent, beantwoord je de volgende vragen. Deze lever je in of laat je zien aan je docent.
+
 - Met welke opties wordt het `ls` commando gebruikt in Clue 4?
 - Welk commando wordt in Clue 6 geintroduceerd, en waar wordt dit commando voor gebruikt?
 - Naar welke domeinnaam wordt in Clue 7 verwezen?
