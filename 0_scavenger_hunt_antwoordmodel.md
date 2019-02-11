@@ -1,6 +1,0 @@
-- Met welke opties wordt het `ls` commando gebruikt in Clue 4? `ls -lahS`.
-- Welk commando wordt in Clue 6 geintroduceerd, en waar wordt dit commando voor gebruikt? `which`, dit vertelt waar een commando geïnstalleerd staat.
-- Naar welke domeinnaam wordt in Clue 7 verwezen? `xkcd.com`
-- Welke optie heb je bij Clue 9 gebruikt om de volgende regel te vinden? `-A1` of `-C1`
-- In Clue 10 wordt een `grep` commando gebruikt om woorden te vinden die met 4 specifieke letters beginnen. Welke letters zijn dit? sand
-- Welke link vind je in de laatste clue (die trouwens niet meer lijkt te bestaan)? `http://memegenerator.co/instance/39836878`

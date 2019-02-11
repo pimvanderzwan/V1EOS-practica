@@ -1,3 +1,8 @@
+---
+title: "EOS Unit 2 — Shell Scripting"
+keywords: [EOS]
+---
+
 # EOS Unit 2 — Shell Scripting
 
 Deze opdracht is individueel. De opdracht is het maken van een aantal Shell scripts, die je in moet leveren via GitHub.

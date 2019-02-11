@@ -1,4 +1,9 @@
-# EOS Unit 4 — Into the Operating System
+---
+title: "EOS Unit 4 — OS Development"
+keywords: [EOS]
+---
+
+# EOS Unit 4 — OS Development
 
 In de laatste opdracht gaan we daadwerkelijk wat aan operating systems sleutelen.
 
