@@ -9,7 +9,9 @@ Deze opdracht is individueel. De opdracht is het maken van een paar simpele util
 
 ## Opdracht 0
 Tijdens de vorige twee practica hebben we uitvoerig gebruik gemaakt van command line utilities op Linux. Deze programma's volgen allemaal de Unix filosofie: doe één taak, maar doe die goed. De reden dat dit zo krachtig is, is dat de kleine programma's gecombineerd kunnen worden om ingewikkelde problemen te automatiseren. Dit noemen we compositie, en kunnen we realiseren met behulp van standaard-invoer en standaard-uitvoer.
-Maak een simpele utility die invoer leest vanuit `std::cin`, hier iets mee doet, en het resultaat uitvoert naar `std::cout`. Geef de utility (teminste) een argument dat de werking van de utility beïnvloed. Het maakt niet uit wat er met de input gebeurt, zolang deze (1) herkenbaar en afhankelijk van het argument verandert, en (2) de utility voor de hele invoer werkt (dus tot aan de EOF). Compile je utility, en laat zien dat deze te combineren is met andere utilities doormiddel van pipes en IO redirection. Eventuele extra output wordt teruggegeven met behulp van `std::cerr` of `std::clog` (whichever meer van toepassing is).
+Maak een simpele utility die invoer leest vanuit `std::cin`, hier iets mee doet, en het resultaat uitvoert naar `std::cout`. Geef de utility (teminste) een argument dat de werking van de utility beïnvloed. Het maakt niet uit wat er met de input gebeurt, zolang deze (1) herkenbaar en afhankelijk van het argument verandert, en (2) de utility voor de hele invoer werkt (dus tot aan de EOF). Compile je utility, en laat zien dat deze te combineren is met andere utilities doormiddel van pipes en IO redirection. Eventuele extra output wordt teruggegeven met behulp van `std::cerr` of `std::clog` (whichever meer van toepassing is). Zie de afbeelding hieronder voor een schematische weergave van een tool `caesar` die in een pipeline gecombineerd wordt met `ls` en `less`.
+
+![](0_tool_schematisch.png)
 
 ### Enkele suggesties
 - Een [Caesarcijfer](https://nl.wikipedia.org/wiki/Caesarcijfer) waarbij het aantal plaatsen met een command-line argument kan worden aangegeven.
