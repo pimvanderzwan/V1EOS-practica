@@ -4,4 +4,4 @@ keywords: [EOS]
 ---
 
 # EOS Unit 4
-Deze opdracht is vervallen.
+Deze opdracht is voor leerjaar 2018-2019 vervallen.
